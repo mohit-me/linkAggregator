@@ -1,4 +1,8 @@
 LinkAggregator::Application.routes.draw do
+  get "home/help2"
+
+  get "home/help"
+
   get "home/index"
 
   # The priority is based upon order of creation:
